@@ -11,4 +11,5 @@ A lean Docker image with Terraform and Azure CLI that can be used as a CI/CD bui
 ## References
 
 - [Azure Docs: Install Azure CLI with apt](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt)
+- [Azure CLI Reference: `az devops` command](https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/devops?view=azure-cli-latest)
 - [Hasicorp Learn: Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
