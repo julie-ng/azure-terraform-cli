@@ -48,10 +48,10 @@ RUN curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - && \
     terraform -version
 
 # Do not run as root
+# But Azure DevOps needs root permissions?
+# RUN groupadd --system devops && \
+#     useradd --create-home --system --gid devops devops
 
-RUN groupadd --system devops && \
-    useradd --create-home --system --gid devops devops
+# USER devops
 
-USER devops
-
-WORKDIR /home/devops
+# WORKDIR /home/devops
