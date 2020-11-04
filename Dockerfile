@@ -17,6 +17,7 @@ RUN apt-get update -qq && \
       ca-certificates \
       curl \
       gnupg \
+      jq \
       libpq-dev \
       lsb-release \
       nodejs \
