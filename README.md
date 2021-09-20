@@ -1,3 +1,12 @@
+### ⚠️ Do not use - this was just for learning purposes only
+
+Consider instead
+
+- [Terraform Provider for Azure DevOps &rarr;](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs)
+- Microsoft-Hosted Agents. [See list of pre-installed software on GitHub &rarr;](https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-README.md)
+
+---
+
 # azure-terraform-cli
 
 A lean Docker image with Terraform and Azure CLI that can be used as a CI/CD build agent.
